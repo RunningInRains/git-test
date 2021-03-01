@@ -26,6 +26,7 @@ public class TestController {
 
     @RequestMapping
     public String login(){
+        System.out.println("bug fix");
         return "login success";
     }
 
