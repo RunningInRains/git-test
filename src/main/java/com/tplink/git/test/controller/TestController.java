@@ -19,4 +19,9 @@ public class TestController {
         return "Hello world!";
     }
 
+    @RequestMapping
+    public String login(){
+        return "login success";
+    }
+
 }
