@@ -24,4 +24,9 @@ public class TestController {
         return "logoff success";
     }
 
+    @RequestMapping
+    public String login(){
+        return "login success";
+    }
+
 }
