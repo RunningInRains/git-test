@@ -19,4 +19,9 @@ public class TestController {
         return "Hello world!";
     }
 
+    @RequestMapping("/logoff")
+    public String logoff(){
+        return "logoff success";
+    }
+
 }
